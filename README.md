@@ -6,6 +6,6 @@ This repository will consist of the following:
 
 2) reveal.js version of the notebook.
 
-* render without JupyterLab.
+* render without JupyterLab.  
 
-2) an talk abstract submitted to Dynamics Days 2019.  
+3) an talk abstract submitted to Dynamics Days 2019.  
