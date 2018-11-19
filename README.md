@@ -6,8 +6,10 @@ This repository will consist of the following:
 
 * topics include growth model >> sequence model >> compound model >> critical period >> dynamical systems.  
 
-2) reveal.js version of the notebook.
+2) pdf and reveal.js version of the notebook.
 
-* render without JupyterLab (use direct link http://orthogonal-research-lab.github.io/Compound-Heterochrony.html).  
+* render without JupyterLab (reveal.js version: http://orthogonal-research-lab.github.io/Compound-Heterochrony.html).
 
-3) an talk abstract submitted to Dynamics Days 2019.  
+* printable version (pdf file in repository).
+
+3) a talk abstract submitted to Dynamics Days 2019: "Dynamical Representations of Heterochrony and the Developmental Process".  
