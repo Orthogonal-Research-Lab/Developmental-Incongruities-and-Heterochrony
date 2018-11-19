@@ -8,6 +8,6 @@ This repository will consist of the following:
 
 2) reveal.js version of the notebook.
 
-* render without JupyterLab.  
+* render without JupyterLab (use direct link http://orthogonal-research-lab.github.io/Compound-Heterochrony.html).  
 
 3) an talk abstract submitted to Dynamics Days 2019.  
