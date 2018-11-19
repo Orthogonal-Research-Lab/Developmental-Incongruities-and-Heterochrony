@@ -2,7 +2,9 @@ Working directory for compound heterochrony (heterochrony with delay differentia
 
 This repository will consist of the following:  
 
-1) Jupyter notebook with notes on the mathematics and theory behind heterochrony.  
+1) Jupyter notebook with notes on the mathematics and theory behind heterochrony. 
+
+* topics include growth model >> sequence model >> compound model >> critical period >> dynamical systems.  
 
 2) reveal.js version of the notebook.
 
