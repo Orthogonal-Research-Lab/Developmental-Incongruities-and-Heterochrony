@@ -1,4 +1,4 @@
-Working directory for the paper "Explaining Developmental Incongruity Through Dynamical Heterochrony"
+Working directory for the paper "[Explaining Developmental Incongruity Through Dynamical Heterochrony](https://github.com/Orthogonal-Research-Lab/Proposals/blob/master/ALife%2019/Developmental-Incongruity-Heterochrony.md)"
 
 This repository consists of the following:  
 
