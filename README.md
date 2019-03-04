@@ -1,6 +1,6 @@
-Working directory for compound heterochrony (heterochrony with delay differential equations).  
+Working directory for the paper "Explaining Developmental Incongruity Through Dynamical Heterochrony"
 
-This repository will consist of the following:  
+This repository consists of the following:  
 
 1) Jupyter notebook with notes on the mathematics and theory behind heterochrony. 
 
