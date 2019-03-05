@@ -12,4 +12,6 @@ This repository consists of the following:
 
 * printable version (pdf file in repository).
 
-3) a talk abstract submitted to Dynamics Days 2019: "Dynamical Representations of Heterochrony and the Developmental Process".  
+3) a talk abstract: "Dynamical Representations of Heterochrony and the Developmental Process".  
+
+4) a paper: "Understanding Developmental Incongruity Through Dynamical Heterochrony".
