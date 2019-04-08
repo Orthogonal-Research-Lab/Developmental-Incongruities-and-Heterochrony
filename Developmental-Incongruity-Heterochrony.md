@@ -130,7 +130,7 @@ Due to the origin of TSMs in overlapping genetic regulatory networks, we expect 
 __Table 2__. Origination nodes (on ordered tree) and values over time for activity in _trans_. Values for the master control gene (root of tree) are always 1. Examples are pseudo-data.
 
 Nodes (ID)    |Values over time          
-:---:         |:---:   
+:---:         |:---   
 0             |0,1,1,1,0,0,0,0,0,0                 
 1             |0,0,0,0,1,1,1,1,0,0                  
 00            |0.0,0.0,0.0,0.0,0.2,0.2,0.3,0.4,0.6,0.4                 
@@ -141,7 +141,7 @@ Nodes (ID)    |Values over time
 __Table 3__. Origination nodes and values over time for activity in _cis_. Examples are pseudo-data.
 
 Nodes (ID)    |Values over time          
-:---:         |:---:   
+:---:         |:---   
 0 <-> 1       |0,1,1,0,1,0,0,0,1,0  
 00 <-> 01     |0.0,0.2,0.3,0.3,0.5,0.7,0.4,0.2,0.1,0.0  
 10 <-> 11     |0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.2,0.0  
