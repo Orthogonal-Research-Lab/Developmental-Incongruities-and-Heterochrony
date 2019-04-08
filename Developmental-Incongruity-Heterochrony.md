@@ -92,7 +92,7 @@ Cayley trees model the expression of phenotypic change by modeling the network o
 
 Each node represents a hypothetical gene or regulatory element. Each level consists of a transformation that produces a output at the branch tips of the tree. As a result, daughter genes at a single level of the binary tree are considered to be a single functional unit (_cis_) of DNA. By contrast, when a gene at one level turns on or off a gene at the next level, it is said to act in _trans_. This is because a binary division creates a new operon consisting of two genes: the mother gene activates the gene in _trans_ and the daughter genes activate each other in _cis_. Lateral activation (within the same level of the tree) occurring between daughter pairs also activate each other in trans. These overlapping structures, which result in a Triangular State Machine (TSM), not only allow us to simulate switching behaviors and nonlinear behaviors [25], but also result in emergent computational mechanisms. Crucially, the crossing point of two networks allows for cross-talk, which is computationally similar to signal convolution. 
 
-In an overlapping example, the TSM maps the three types of behavior embedded in network arcs to numeric states: a state of “0” equals “off”, a state of “1” equals “on in *trans*”, and a state of “2” equals “on in *cis*”. Table 1 shows all possible ordinal paths and their corresponding states for an order 3 binary tree.  
+In an overlapping example, the TSM maps the three types of behavior embedded in network arcs to numeric states: a state of “0” equals “off”, a state of “1” equals “on in *trans*”, and a state of “2” equals “on in *cis*”. Table 1 shows all possible ordinal paths and their corresponding states for an order 3 binary tree. Tables 2 and 3 show activity in the same tree over 10 timepoints for _trans_ and _cis_ pathways, respectively. 
 
 __Table 1__. All pairwise ordinal paths (network arcs) in an order 3 binary tree. Ordinal path leads from source to destination.
 
@@ -126,6 +126,26 @@ Each tree has an identity (0,1) that comes before the node identity (0,1). The l
 __Figure 5__. Two overlapping GRNs with overlapping nodes and ordered arcs forming a hierarchical compound model. Click to enlarge.
 
 Due to the origin of TSMs in overlapping genetic regulatory networks, we expect to see complex phenotypes resulting from these interactions. One such phenotypic pattern we expect to see are interference patterns similar to Moire patterns form applied mathematics. This interference mechanisms might reveal itself in the form of overlapping coloration patterns along the body, or the juxtaposition of differing connectivity patterns in a nervous system. The $\tau$ parameter can also play a role in determining what these interference patterns look like, whether they look more like a overlapping sets of concentric circles (negative values for $\tau$) or the orderly meeting of two orientations of a city street grid ($\tau$ of 0).
+
+__Table 2__. Origination nodes (on ordered tree) and values over time for activity in _trans_. Values for the master control gene (root of tree) are always 1. Examples are pseudo-data.
+
+Nodes (ID)    |Values over time          
+:---:         |:---:   
+0             |0,1,1,1,0,0,0,0,0,0                 
+1             |0,0,0,0,1,1,1,1,0,0                  
+00            |0.0,0.0,0.0,0.0,0.2,0.2,0.3,0.4,0.6,0.4                 
+01            |0.0,0.1,0.1,0.3,0.3,0.4,0.4,0.1,0.0,0.0                 
+10            |0.0,0.1,0.5,0.2,0.4,0.6,0.1,0.2,0.0,0.2     
+11            |0.1,0.0,0.0,0.0,0.1,0.0,0.0,0.1,0.1,0.0        
+
+__Table 3__. Origination nodes and values over time for activity in _cis_. Examples are pseudo-data.
+
+Nodes (ID)    |Values over time          
+:---:         |:---:   
+0 <-> 1       |0,1,1,0,1,0,0,0,1,0  
+00 <-> 01     |0.0,0.2,0.3,0.3,0.5,0.7,0.4,0.2,0.1,0.0  
+10 <-> 11     |0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.2,0.0  
+
 
 ### Discussion  
 In this paper, the theory of heterochrony has been advanced and a mechanism for the genomic expression of systematic growth has 
