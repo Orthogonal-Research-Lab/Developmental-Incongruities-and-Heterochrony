@@ -15,3 +15,5 @@ This repository consists of the following:
 3) a talk abstract: "Dynamical Representations of Heterochrony and the Developmental Process".  
 
 4) a paper: "Understanding Developmental Incongruity Through Dynamical Heterochrony".
+
+5) an [additional Github repo](https://github.com/devoworm/Triangular-State-Machines-TSM) with information on Triangular State Machines (TSMs)
