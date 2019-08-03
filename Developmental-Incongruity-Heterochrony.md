@@ -146,6 +146,16 @@ Nodes (ID)    |Values over time
 00 <-> 01     |0.0,0.2,0.3,0.3,0.5,0.7,0.4,0.2,0.1,0.0  
 10 <-> 11     |0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.2,0.0  
 
+### Plinko game model and axial differential growth
+
+
+### Mapping trees to radial differential growth
+
+<p align="center">
+  <img width="245" height="240" src="https://user-images.githubusercontent.com/38323286/62408137-5d2eb580-b589-11e9-9352-5d783e1b50f4.png">
+</p>
+
+__Figure 6__. Expression tree.
 
 ### Discussion  
 In this paper, the theory of heterochrony has been advanced and a mechanism for the genomic expression of systematic growth has 
