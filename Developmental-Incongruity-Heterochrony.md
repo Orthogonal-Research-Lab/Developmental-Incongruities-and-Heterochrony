@@ -152,10 +152,10 @@ Nodes (ID)    |Values over time
 ### Mapping trees to radial differential growth
 
 <p align="center">
-  <img width="245" height="240" src="https://user-images.githubusercontent.com/38323286/62408137-5d2eb580-b589-11e9-9352-5d783e1b50f4.png">
+  <img width="294" height="288" src="https://user-images.githubusercontent.com/38323286/62408137-5d2eb580-b589-11e9-9352-5d783e1b50f4.png">
 </p>
 
-__Figure 6__. Expression tree.
+__Figure 6__. Expression tree with TSMs using 2-D layered embryo.
 
 ### Discussion  
 In this paper, the theory of heterochrony has been advanced and a mechanism for the genomic expression of systematic growth has 
