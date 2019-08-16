@@ -148,6 +148,11 @@ Nodes (ID)    |Values over time
 
 ### Plinko game model and axial differential growth
 
+<p align="center">
+  <img width="253" height="166" src="https://user-images.githubusercontent.com/38323286/63139443-f99e8200-bfa3-11e9-98e3-db13e1a32553.png">
+</p>
+
+__Figure 6__. Binary expression tree (variant on the Cayley tree) mapped to a model of the A-P axis discrete growth along the axis. The Plinko game occurs by emitting a state from the root of the tree (top) and activated or suppressed at each node. Activation follows a single path throughout the tree, and at the tips of the tree is emitted into a single bin in the series along the A-P axis. Outputs from the tree accumulate over time and result in an accretion distribution along the A-P phenotypic axis.
 
 ### Mapping trees to radial differential growth
 
@@ -155,7 +160,7 @@ Nodes (ID)    |Values over time
   <img width="294" height="288" src="https://user-images.githubusercontent.com/38323286/62408137-5d2eb580-b589-11e9-9352-5d783e1b50f4.png">
 </p>
 
-__Figure 6__. Expression tree with TSMs using 2-D layered embryo.
+__Figure 7__. Expression tree with TSMs using 2-D layered embryo.
 
 ### Discussion  
 In this paper, the theory of heterochrony has been advanced and a mechanism for the genomic expression of systematic growth has 
