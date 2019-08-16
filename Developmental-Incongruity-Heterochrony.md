@@ -1,5 +1,7 @@
 # Understanding Developmental Incongruity Through Dynamical Heterochrony
 
+_Please install [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related) or [Math Anywhere](https://chrome.google.com/webstore/detail/math-anywhere/gebhifiddmaaeecbaiemfpejghjdjmhc) Chrome plug-ins to view equations_  
+
 ## Abstract  
 The theory of heterochrony provides us with a generalized quantitative perspective on the dynamics of developmental trajectories. While useful, these linear developmental trajectories merely characterize changes in the speed and extent of growth in developmental time. One open problem in the literature involves how to characterize developmental trajectories for rare and incongruous modes of development. By combining nonlinear mathematical representations of development with models of gene expression networks (GRNs), the dynamics of growth given the plasticity and complexity of developmental timing are revealed. The approach presented here also characterizes heterochrony as a dynamical system as well as introduces putative developmental features called triangular state machines (TSMs). With a focus on developmental timing, formal techniques are developed to characterize delays and bifurcations in the developmental trajectory. These techniques take into consideration the existence of multiple developmental genotypes operating in parallel, which ultimately characterize the exquisite phenotypic diversity observed in animal development.  
 
@@ -149,7 +151,7 @@ Nodes (ID)    |Values over time
 ### Plinko game model and axial differential growth
 
 <p align="center">
-  <img width="253" height="166" src="https://user-images.githubusercontent.com/38323286/63139443-f99e8200-bfa3-11e9-98e3-db13e1a32553.png">
+  <img width="380" height="249" src="https://user-images.githubusercontent.com/38323286/63139443-f99e8200-bfa3-11e9-98e3-db13e1a32553.png">
 </p>
 
 __Figure 6__. Binary expression tree (variant on the Cayley tree) mapped to a model of the A-P axis discrete growth along the axis. The Plinko game occurs by emitting a state from the root of the tree (top) and activated or suppressed at each node. Activation follows a single path throughout the tree, and at the tips of the tree is emitted into a single bin in the series along the A-P axis. Outputs from the tree accumulate over time and result in an accretion distribution along the A-P phenotypic axis.
@@ -160,7 +162,7 @@ __Figure 6__. Binary expression tree (variant on the Cayley tree) mapped to a mo
   <img width="294" height="288" src="https://user-images.githubusercontent.com/38323286/62408137-5d2eb580-b589-11e9-9352-5d783e1b50f4.png">
 </p>
 
-__Figure 7__. Expression tree with TSMs using 2-D layered embryo. Tree extends radially from the center of the main sphere (embryo), and a bifurcation in the tree results in a tissue (color-coded by layer). A differentiation tree is constructed by sorting each tissue at each level and the relative expansion and contraction of each tissue spheres.
+__Figure 7__. Expression tree with TSMs using 2-D layered embryo. Tree extends radially from the center of the main sphere (embryo), and a bifurcation in the tree results in a tissue (color-coded by layer). A differentiation tree [26] is constructed by sorting each tissue at each level and the relative expansion and contraction of each tissue spheres.
 
 ### Discussion  
 In this paper, the theory of heterochrony has been advanced and a mechanism for the genomic expression of systematic growth has 
@@ -169,9 +171,9 @@ phases of growth. The genomic expression models introduced here utilize Cayley t
 units and produce outputs that result in a growth trend. There are also several themes revealed in this paper. The first is the role of 
 delays and differential time in the expression of phenotypes. Based on anectodal observations made by Williamson [5,6], changes in phase 
 across the developmental process are hypothesized to be due to multiple growth processes (expressed in the genotype) and changes in the 
-rate and linkage of these growth processes. Representing the genotype, the Cayley tree representations also reveal how these dynamics might be regulated. Cayley trees rely on both regulation and gene-gene interactions [26] to produce a dynamical output. In cases where two Cayley trees overlap, it is hypothesized that a TSM exists that provides a mechanism for local feedback. This may result in nonlinear outputs and other examples of complex regulation.
+rate and linkage of these growth processes. Representing the genotype, the Cayley tree representations also reveal how these dynamics might be regulated. Cayley trees rely on both regulation and gene-gene interactions [27] to produce a dynamical output. In cases where two Cayley trees overlap, it is hypothesized that a TSM exists that provides a mechanism for local feedback. This may result in nonlinear outputs and other examples of complex regulation.
 
-One overarching theme of this paper is that patterns of developmental growth and the progression of developmental dynamics are much more complex than assumed by contemporary theory. Using a combination of genotypic network representations and heterochronic scaling in the phenotype, we can begin to move towards viewing development as a highly complex and nonlinear process. Yet this approach also provides concrete mechanisms for guided generativity. In the developmental program responsible for _Drosophila_ eye morphogenesis, switch-like behavior results from positive feedback between genes in the regulatory network [27]. Nonlinear positive feedback in the form of interacting positive feedback loops, sets the stage for dynamic bistability [28], or the conditions that enable switching mechanism responsible for both multiphasic and compound heterochrony. Dynamic bistability can be demonstrated in small and complex GRNs alike [29, 30]. More generally, epigenetic landscapes [31] can be used to demonstrate switching as a function of differentiation and historical contingency. Future work will involve mapping simulations of development derived from our approach to developmental structures such as lineage trees and epigenetic landscapes.  
+One overarching theme of this paper is that patterns of developmental growth and the progression of developmental dynamics are much more complex than assumed by contemporary theory. Using a combination of genotypic network representations and heterochronic scaling in the phenotype, we can begin to move towards viewing development as a highly complex and nonlinear process. Yet this approach also provides concrete mechanisms for guided generativity. In the developmental program responsible for _Drosophila_ eye morphogenesis, switch-like behavior results from positive feedback between genes in the regulatory network [28]. Nonlinear positive feedback in the form of interacting positive feedback loops, sets the stage for dynamic bistability [29], or the conditions that enable switching mechanism responsible for both multiphasic and compound heterochrony. Dynamic bistability can be demonstrated in small and complex GRNs alike [30, 31]. More generally, epigenetic landscapes [32] can be used to demonstrate switching as a function of differentiation and historical contingency. Future work will involve mapping simulations of development derived from our approach to developmental structures such as lineage trees and epigenetic landscapes.  
 
 ### Acknowledgements
 I would like to thank Dr. Richard Gordon and other members of the DevoWorm group for their feedback and discussion.  
@@ -227,16 +229,18 @@ I would like to thank Dr. Richard Gordon and other members of the DevoWorm group
 
 [25] Brookings, T., Carlson, J.M., and Doyle, J. (2005). Three mechanisms for power laws on the Cayley tree. _Physical Review E_, 72(5), 056120.
 
-[26] Mensch, J., Carreira, V., Lavagnino, N., Goenaga, J., Folguera, G., Hasson, E., and Fanara, J.J. (2010). Stage-Specific Effects of 
+[26] Gordon, R. (1999). Hierarchical Genome And Differentiation Waves: novel unification of development, genetics and evolution. World Scientific, Singapore.
+
+[27] Mensch, J., Carreira, V., Lavagnino, N., Goenaga, J., Folguera, G., Hasson, E., and Fanara, J.J. (2010). Stage-Specific Effects of 
 Candidate Heterochronic Genes on Variation in Developmental Time along an Altitudinal Cline of _Drosophila melanogaster_. _PLoS One_, 
 5(6), e11229.
 
-[27] Graham, T.G.W., Ali Tabei, S.M., Dinner, A.R., and Rebay, I. (2010). Modeling bistable cell-fate choices in the _Drosophila_ eye: qualitative and quantitative perspectives. _Development_, 137, 2265-2278.  
+[28] Graham, T.G.W., Ali Tabei, S.M., Dinner, A.R., and Rebay, I. (2010). Modeling bistable cell-fate choices in the _Drosophila_ eye: qualitative and quantitative perspectives. _Development_, 137, 2265-2278.  
 
-[28] Chang, D-E., Leung, S., Atkinson, M.R., Reifler, A., Forger, D., and Ninfa, A.J. (2010). Building biological memory by linking positive feedback loops. _PNAS_, 107(1), 175–180.  
+[29] Chang, D-E., Leung, S., Atkinson, M.R., Reifler, A., Forger, D., and Ninfa, A.J. (2010). Building biological memory by linking positive feedback loops. _PNAS_, 107(1), 175–180.  
 
-[29] Huang, S., Eichler, G., Bar-Yam, Y. and Ingber, D. E. (2005). Cell fates as high-dimensional attractor states of a complex gene regulatory network. _Physical Review Letters_, 94, 128701.  
+[30] Huang, S., Eichler, G., Bar-Yam, Y. and Ingber, D. E. (2005). Cell fates as high-dimensional attractor states of a complex gene regulatory network. _Physical Review Letters_, 94, 128701.  
 
-[30] Siegal-Gaskins, D., Grotewold, E. and Smith, G. D. (2009). The capacity for multistability in small gene regulatory networks. _BMC Systems Biology_, 3, 96.  
+[31] Siegal-Gaskins, D., Grotewold, E. and Smith, G. D. (2009). The capacity for multistability in small gene regulatory networks. _BMC Systems Biology_, 3, 96.  
 
-[31] Ferrell, J.E. (2012). Bistability, Bifurcations, and Waddington’s Epigenetic Landscape. _Current Biology_, 22, R458–R466.  
+[32] Ferrell, J.E. (2012). Bistability, Bifurcations, and Waddington’s Epigenetic Landscape. _Current Biology_, 22, R458–R466.  
