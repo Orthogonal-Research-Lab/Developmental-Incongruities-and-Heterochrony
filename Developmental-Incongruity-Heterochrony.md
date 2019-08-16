@@ -85,7 +85,7 @@ __Figure 2__. A step-by-step description of compound heterochrony, in which deve
   <img width="442" height="249" src="https://user-images.githubusercontent.com/38323286/53510304-47214400-3a83-11e9-8efc-45189e7ad854.png">
 </p>
 
-__Figure 3__. An example of a nonlinear switching event during developmental growth between two growth trajectories. Parameter $\alpha$ represents the start of the growth trajectory, and parameter $\beta$ represents the end of this growth process. In this example of compound heterochrony, two developmental programs are separated by a dedifferentiation and decellularization process (gray dashed line between $\beta_1$ and $\alpha_2$). Click to enlarge.  
+__Figure 3__. An example of a nonlinear switching event during developmental growth between two growth trajectories. Parameter $\alpha$ represents the start of the growth trajectory, and parameter $\beta$ represents the end of this growth process. In this example of compound heterochrony, two developmental programs are separated by a dedifferentiation and decellularization process. Gray dashed line between $\beta_1$ and $\alpha_2$. Click to enlarge.  
 
 ### Computational Regulatory Model  
 Cayley trees model the expression of phenotypic change by modeling the network of heterochrony genes that produce an output of controlled growth. Each node in the tree represents a gene or regulatory element, and the tree structure itself is structured according to their relative causal effect on each other. We can also represent epistasis by introducing lateral branches across nodes at the same level. Structurally, the Cayley tree model demonstrates the contingent nature of single factors and their effect on the collective regulation of growth. Each tree structure represents a single set of heterochony genes for a specific developmental pathway [24]. Therefore, tree structures can be overlapped to simulate cross-talk between different networks of heterochrony genes.   
@@ -160,7 +160,7 @@ __Figure 6__. Binary expression tree (variant on the Cayley tree) mapped to a mo
   <img width="294" height="288" src="https://user-images.githubusercontent.com/38323286/62408137-5d2eb580-b589-11e9-9352-5d783e1b50f4.png">
 </p>
 
-__Figure 7__. Expression tree with TSMs using 2-D layered embryo.
+__Figure 7__. Expression tree with TSMs using 2-D layered embryo. Tree extends radially from the center of the main sphere (embryo), and a bifurcation in the tree results in a tissue (color-coded by layer). A differentiation tree is constructed by sorting each tissue at each level and the relative expansion and contraction of each tissue spheres.
 
 ### Discussion  
 In this paper, the theory of heterochrony has been advanced and a mechanism for the genomic expression of systematic growth has 
