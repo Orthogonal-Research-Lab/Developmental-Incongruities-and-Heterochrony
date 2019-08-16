@@ -162,7 +162,7 @@ __Figure 6__. Binary expression tree (variant on the Cayley tree) mapped to a mo
   <img width="294" height="288" src="https://user-images.githubusercontent.com/38323286/62408137-5d2eb580-b589-11e9-9352-5d783e1b50f4.png">
 </p>
 
-__Figure 7__. Expression tree with TSMs using 2-D layered embryo. Tree extends radially from the center of the main sphere (embryo), and a bifurcation in the tree results in a tissue (color-coded by layer). A differentiation tree [26] is constructed by sorting each tissue at each level and the relative expansion and contraction of each tissue spheres.
+__Figure 7__. Expression tree with TSMs using 2-D layered embryo. Tree extends radially from the center of the main sphere (embryo), and a bifurcation in the tree results in a tissue (color-coded by layer). A differentiation tree [26] is constructed by sorting each tissue at each level and the relative expansion and contraction of each tissue spheres. See [this YouTube video](https://youtu.be/DjGTeOIUPcM) for more information.
 
 ### Discussion  
 In this paper, the theory of heterochrony has been advanced and a mechanism for the genomic expression of systematic growth has 
