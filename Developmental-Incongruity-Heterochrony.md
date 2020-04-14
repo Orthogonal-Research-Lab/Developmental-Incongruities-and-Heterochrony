@@ -111,7 +111,7 @@ N/A           |0             |1
 00            |01            |2             
 10            |11            |2             
 
-TSMs can also be organized to show reciprocal connections between nodes. In such cases, the rules of the original tree hold, with the only difference being a potential regulatory mechanism between the mother and daughter gene(s). Figures 4 and 5 demonstrate these relationships, with Figure 4 deonstrating reciprocal connections and a TSM and Figure 5 providing an example of an overlapping tree.
+TSMs can also be organized to show reciprocal connections between nodes. In such cases, the rules of the original tree hold, with the only difference being a potential regulatory mechanism between the mother and daughter gene(s). Figures 4 and 5 demonstrate these relationships, with Figure 4 demonstrating reciprocal connections and a TSM and Figure 5 providing an example of an overlapping tree.
 
 <p align="center">
   <img width="504" height="250" src="https://user-images.githubusercontent.com/38323286/53188983-1b5a1600-35cc-11e9-9dc7-8245b402391b.PNG">
